@@ -5,6 +5,7 @@ Source: https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset
 This is an attempt at implementing transfer learning on a CoronaHack -Chest X-Ray-Dataset to identify a patient with Covid19 just by looking at their chest X-ray results.
 
 ![Chest Xray](/images/chest-x-ray.png)
+
 Looking at the X-Ray from a layman perspective, there is hardly any difference between the X-Ray images and the patient's condition. The Convolutional Neural Net (CNN) algorithm is able to take seemingly similar X-Ray images, identify patterns in them that is hidden to the naked eye and tell the conditions apart.
 
 I am using resnet34 as a base model for transfer learning. I will be training using the Chest X-Ray-Dataset provided by folks at Kaggle. The model yield pretty acceptable result, considering there were only about 60+ Chest X-Ray of Covid patients with most of them having other conditions.
