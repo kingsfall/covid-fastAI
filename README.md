@@ -18,9 +18,9 @@ I am using resnet34 as a base model for transfer learning. I will be training us
  'SARS (Virus)': 0.0}
 
  ## Confusion Matrix
- array([[  8,   2,   1,   1,   0],\
-       [  0, 291,  17,   7,   0],\
-       [  1,  18, 188,  92,   0],\
-       [  2,  14,  76, 463,   0],\
-       [  1,   0,   0,   0,   0]])
+COVID-19 (Virus)    [[  8,   2,   1,   1,   0],\
+Normal              [  0, 291,  17,   7,   0],\
+Pnemonia (Virus)    [  1,  18, 188,  92,   0],\
+Pnemonia (bacteria) [  2,  14,  76, 463,   0],\
+SARS (Virus)        [  1,   0,   0,   0,   0]]
 
